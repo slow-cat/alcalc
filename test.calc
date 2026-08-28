@@ -1,0 +1,8 @@
+let x = 10;
+x;
+let y = x + 2;
+y;
+x;
+fn add(a, b) = a + b;
+add(y, 3);
+
