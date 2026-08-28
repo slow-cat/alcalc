@@ -15,4 +15,11 @@ tree sitterを利用した前方宣言可能な簡易的な計算機
 
 # 構文木
 
+```
+let y = x + 2;
+add(y, 3);
+let x = 10;
+fn add(a, b) = a + b;
+```
+
 ![graph](./test.svg)
